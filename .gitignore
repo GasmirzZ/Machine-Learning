@@ -1,0 +1,69 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ==== Virtuelna okruzenja ====
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ==== Jupyter ====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==== VS Code / PyCharm ====
+.vscode/
+.idea/
+
+# ==== Environment / secrets ====
+.env
+*.env
+.env.local
+
+# ==== ML / Data Science specificno ====
+# Podaci - obicno preveliki i/ili ne treba da budu u git-u
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+
+# Istrenirani modeli / cekpointi - takodje veliki fajlovi
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.joblib
+models/
+checkpoints/
+saved_models/
+
+# Logovi treninga (tensorboard, wandb, mlflow)
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+.mlflow/
+
+# ==== Sistem specificno ====
+.DS_Store
+Thumbs.db
+
+# ==== Ostalo ====
+*.log
+.cache/
+.pytest_cache/
